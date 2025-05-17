@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #fff;
+  color: #0a0a0a;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+header img:hover {
+  transform: scale(1.1);
+}
+h1 {
+  margin: 10px 0;
+  font-size: 2.5em;
+}
+p {
+  font-size: 1.2em;
+}
+/* About Me Section */
+.about {
+  padding: 30px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about h2 {
+  font-size: 1.8em;
+  color: #333;
+}
+.about p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+/* Skills Section */
+.skills {
+  padding: 30px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+.skills li {
+  font-size: 1.2em;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+.skills li:hover {
+  color: #007bff;
+}
+/* Projects Section */
+.projects {
+  padding: 30px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.projects h2 {
+  font-size: 1.8em;
+}
+.project {
+  background: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+.project a {
+  color: #007bff;
+  text-decoration: none;
+}
+.project a:hover {
+  text-decoration: underline;
+}
+/* Contact Section */
+.contact {
+  padding: 30px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+/* Footer */
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 1.1em;
+  color: #333;
+}
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  header {
+    padding: 20px;
+  }
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+  section {
+    margin: 20px;
+    padding: 15px;
+  }
+  .project {
+    padding: 10px;
+  }
+  footer {
+    padding: 10px;
+  }
+}
